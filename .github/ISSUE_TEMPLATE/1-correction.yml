@@ -1,0 +1,23 @@
+name: Correction
+description: Correct something on the guide.
+title: "[Correction]: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping others by contributing to this guide!
+  - type: textarea
+    id: info
+    attributes:
+      label: Correction
+      description: What content is wrong and should be corrected? (link sources if possible)
+    validations:
+      required: true
+  - type: input
+    id: affected-page
+    attributes:
+      label: What page is this correction for?
+      description: The full url of the page where the correction is for.
+    validations:
+      required: true
