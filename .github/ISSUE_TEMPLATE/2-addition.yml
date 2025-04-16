@@ -1,0 +1,16 @@
+name: Addition
+description: Make an addition to the guide.
+title: "[Addition]: "
+labels: ["addition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping others by contributing to this guide!
+  - type: textarea
+    id: info
+    attributes:
+      label: Content
+      description: What information do you want to add? (link sources if possible)
+    validations:
+      required: true
